@@ -95,3 +95,12 @@
   align-self: center;
   font-size: calc(10px + 1vh);
 }
+
+/* Blog Index Page */
+.index-img {
+  width: fit-content;
+  height: fit-content;
+  max-width: 45%;
+  max-height: 45%;
+  margin: 10vh auto;
+}
