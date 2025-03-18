@@ -14,7 +14,7 @@
       <nav>
         <ul class="header-nav">
             <li class="nav-list"><a href="../.." class="nav-txt">Home</a></li>
-            <li class="nav-list"><a href="html-css.html" class="nav-txt">Blog</a></li>
+            <li class="nav-list"><a href="blog-main.html" class="nav-txt">Blog</a></li>
             <li class="nav-list"><a href="https://www.example.com" class="nav-txt">Temp</a></li>
         </ul>
       </nav>
@@ -23,10 +23,21 @@
     <section class="body-container">
         <h1 class="body-heading">Blog Index</h1>
         <h2 class="body-subheading" style="margin-top: 1vh;">All my blog posts in one place</h2>
-        <div style="margin:0; display: grid; grid-template-columns: 1f 1f 1f; grid-template-rows: 2fr 1fr 2fr;">
-            <img src="imgs/temp.jpg" class="index-img" style="grid-row: 1; grid-column: 1;">
-            <img src="imgs/temp.jpg" class="index-img" style="grid-row: 1; grid-column: 2;">
-            <img src="imgs/temp.jpg" class="index-img" style="grid-row: 1; grid-column: 3;">
+        <div class="blog-layout">
+            <div style="grid-row: 1; grid-column: 1;" class="blog-thumbnail-portrait-1"><a href="learning-plan.html" class="index-link">
+              <img src="imgs/learning-plan-thumbnail.jpg" class="index-img">
+              <h3 class="index-txt">Learning Plan</h3>
+            </a></div>
+            
+            <div style="grid-row: 1; grid-column: 2;" class="blog-thumbnail-portrait-2"><a href="identity-values.html" class="index-link">
+              <img src="imgs/identity-values-thumbnail.png" class="index-img">
+              <h3 class="index-txt">Identity and Values</h3>
+            </a></div>
+
+            <div style="grid-row: 1; grid-column: 3;" class="blog-thumbnail-portrait-3"><a href="html-css.html" class="index-link">
+              <img src="imgs/box-model-thumbnail.png" class="index-img">
+              <h3 class="index-txt">Margin vs Border vs Padding</h3>
+            </a></div>
         </div>
     </section>
 

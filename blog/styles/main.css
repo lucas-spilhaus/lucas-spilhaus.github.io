@@ -97,10 +97,55 @@
 }
 
 /* Blog Index Page */
+
 .index-img {
   width: fit-content;
   height: fit-content;
-  max-width: 45%;
-  max-height: 45%;
-  margin: 10vh auto;
+  max-width: 90%;
+  max-height: 90%;
+  margin: 10vh auto 1vh;
+}
+
+.index-txt {
+  margin: 1vh auto;
+  align-self: center;
+}
+
+.index-link {
+  color: black; text-decoration: 
+  none; display: flex; 
+  flex-direction: column;
+}
+
+.blog-layout {
+  margin:0; 
+  display: grid; 
+  grid-template-columns: 1f 1f 1f; 
+  grid-template-rows: 50% 10%fr;
+}
+
+/* Layout for portrait */
+
+@media (orientation: portrait) {
+  .blog-layout {
+    grid-template-columns: 1f; 
+    grid-template-rows: 25% 7% 25% 7% 25% 7%;
+  }
+
+  /* This code sucks but not smart enough to improve yet */
+
+  .blog-thumbnail-portrait-1 {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+  }
+
+  .blog-thumbnail-portrait-2 {
+    grid-column: 1 !important;
+    grid-row: 3 !important;
+  }
+
+  .blog-thumbnail-portrait-3 {
+    grid-column: 1 !important;
+    grid-row: 5 !important;
+  }
 }
