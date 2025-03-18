@@ -87,7 +87,7 @@
   background-color: #4d3292;
   margin-top: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .footer-txt {
