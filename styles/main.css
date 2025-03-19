@@ -12,6 +12,7 @@
   font-size: calc(20px + 1vw);
   margin-top: calc(18px + 1vh);
   margin-bottom: calc(18px + 1vh);
+  color: white;
 }
 
 .header-nav{
@@ -28,7 +29,7 @@
 }
 
 .nav-txt {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: calc(15px + .2vw);
 }
@@ -73,4 +74,5 @@
 .footer-txt {
   align-self: center;
   font-size: calc(10px + 1vh);
+  color: white;
 }
