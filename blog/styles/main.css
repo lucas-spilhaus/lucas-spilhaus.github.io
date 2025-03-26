@@ -47,7 +47,7 @@
 .body-heading {
   width: fit-content;
   height: fit-content;
-  max-width: 40%;
+  max-width: 50%;
   text-align: center;
   display: block;
   margin: 15vh auto 1vh;
@@ -132,7 +132,7 @@
 @media (orientation: portrait) {
   .blog-layout {
     grid-template-columns: 1f; 
-    grid-template-rows: 18% 18% 18% 18% 18%;
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
   }
 
   /* This code sucks but not smart enough to improve yet */
@@ -164,6 +164,12 @@
   .blog-thumbnail-portrait-5 {
     grid-column: 1 !important;
     grid-row: 5 !important;
+    margin-bottom: 5vh;
+  }
+
+  .blog-thumbnail-portrait-6 {
+    grid-column: 1 !important;
+    grid-row: 6 !important;
     margin-bottom: 5vh;
   }
 
