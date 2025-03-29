@@ -124,7 +124,7 @@
   margin:0; 
   display: grid; 
   grid-template-columns: 1f 1f 1f; 
-  grid-template-rows: 42.5% 42.5%;
+  grid-template-rows: 30% 30% 30%;
 }
 
 /* Layout for portrait */
@@ -132,10 +132,11 @@
 @media (orientation: portrait) {
   .blog-layout {
     grid-template-columns: 1f; 
-    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+    grid-template-rows: 13% 13% 13% 13% 13% 13% 13%;
   }
 
   /* This code sucks but not smart enough to improve yet */
+  /* Should also really be ids instead */
 
   .blog-thumbnail-portrait-1 {
     grid-column: 1 !important;
@@ -170,6 +171,12 @@
   .blog-thumbnail-portrait-6 {
     grid-column: 1 !important;
     grid-row: 6 !important;
+    margin-bottom: 5vh;
+  }
+
+  .blog-thumbnail-portrait-7 {
+    grid-column: 1 !important;
+    grid-row: 7 !important;
     margin-bottom: 5vh;
   }
 
