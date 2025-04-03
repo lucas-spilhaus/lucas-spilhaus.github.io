@@ -132,7 +132,7 @@
 @media (orientation: portrait) {
   .blog-layout {
     grid-template-columns: 1f; 
-    grid-template-rows: 13% 13% 13% 13% 13% 13% 13%;
+    grid-template-rows: 11.5% 11.5% 11.5% 11.5% 11.5% 11.5% 11.5%;
   }
 
   /* This code sucks but not smart enough to improve yet */
@@ -177,6 +177,12 @@
   .blog-thumbnail-portrait-7 {
     grid-column: 1 !important;
     grid-row: 7 !important;
+    margin-bottom: 5vh;
+  }
+
+  .blog-thumbnail-portrait-8 {
+    grid-column: 1 !important;
+    grid-row: 8 !important;
     margin-bottom: 5vh;
   }
 
