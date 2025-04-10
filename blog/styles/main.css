@@ -58,21 +58,19 @@
 .body-subheading {
   width: fit-content;
   height: fit-content;
-  max-width: 40%;
-  text-align: center;
+  max-width: 80%;
   display: block;
-  margin: 5vh auto 1vh;
-  font-size: calc(25px + 0.5vw);
+  margin: 5vh auto 3vh;
+  font-size: calc(20px + 0.5vw);
 }
 
 .body-txt {
   width: fit-content;
   height: fit-content;
-  max-width: 40%;
-  text-align: center;
+  max-width: 80%;
   display: block;
   margin: 1vh auto 1vh;
-  font-size: calc(20px + 0.5vw);
+  font-size: calc(15px + 0.5vw);
 }
 
 .body-img {
@@ -82,6 +80,13 @@
   max-height: 35%;
   display:block;
   margin: 10vh auto 2vh;
+}
+
+.body-section {
+  max-width: 75%;
+  margin: 10vh auto;
+  background-color: #a44ae8;
+  border-radius: 10px;
 }
 
 /* Footer */
