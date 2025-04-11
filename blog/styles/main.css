@@ -60,8 +60,9 @@
   height: fit-content;
   max-width: 80%;
   display: block;
-  margin: 5vh auto 3vh;
+  margin: 5vh 5vh;
   font-size: calc(20px + 0.5vw);
+  text-align: left;
 }
 
 .body-txt {
@@ -69,8 +70,9 @@
   height: fit-content;
   max-width: 80%;
   display: block;
-  margin: 1vh auto 1vh;
+  margin: 1vh 5vh;
   font-size: calc(15px + 0.5vw);
+  text-align: left;
 }
 
 .body-img {
